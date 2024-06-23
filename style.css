@@ -1,0 +1,144 @@
+* {
+      box-sizing: border-box;
+	  background-color:grey;
+	 
+    }
+
+    body {  
+     
+      max-width: 1100px;
+      margin: 0 auto;
+      font-family: "roboto", sans-serif;
+      text-align: center;
+    }
+
+    .meme_div {
+      text-align: center;
+	  
+    }
+
+    .img {
+      height: 430px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .meme_btn {
+      padding: 8px 20px;
+      border: none;
+      border-radius: 10px;
+      margin: 24px;
+      font-size: 25px;
+      color: white;
+      background-color:blue;
+      cursor: pointer;
+      transition: all 400ms ease;
+    }
+
+    .meme_btn:hover {
+      letter-spacing: 2px;
+      background-color: green;
+      border: 2px solid black;
+      border-radius: 40px;
+    }
+
+    .exit_btn, .home_btn {
+      padding: 8px 20px;
+      border: none;
+      border-radius: 10px;
+      margin: 24px;
+      font-size: 25px;
+      color: white;
+      background-color: blue;
+      cursor: pointer;
+      transition: all 400ms ease;
+    }
+
+    .exit_btn:hover, .home_btn:hover {
+      letter-spacing: 1px;
+      background-color: green;
+      border: 2px solid black;
+      border-radius: 40px;
+    }
+
+    .home_btn {
+      background-color: blue;
+    }
+
+    .home_btn:hover {
+      background-color: green;
+    }
+
+    .home img {
+      width: 100%;
+      height: auto;
+      border: 4px solid black;
+      border-radius: 10px;
+    }
+
+    .box {
+      margin: 50px auto;
+      padding: 20px;
+      height: auto;
+      width: 90%;
+      border: 10px solid black;
+      text-align: center;
+      align-items: center;
+    }
+
+    @media (max-width: 800px) {
+      .meme_btn, .exit_btn, .home_btn {
+        font-size: 16px;
+        padding: 6px 16px;
+        margin: 16px;
+      }
+
+      .img {
+        height: auto;
+      }
+
+      .box {
+        width: 100%;
+        padding: 10px;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .meme_btn, .exit_btn, .home_btn {
+        font-size: 14px;
+        padding: 4px 12px;
+        margin: 12px;
+      }
+
+      .home img {
+        border-width: 2px;
+      }
+
+      .box {
+        padding: 5px;
+      }
+    }
+	.meme_button{
+	          
+			  color:white;
+			  font-size:bolder;
+			  
+			  }
+			  .meme_button{
+      padding: 8px 17px;
+      border: none;
+      border-radius: 10px;
+      margin: 24px;
+      font-size: 20px;
+      color: white;
+      background-color: blue;
+      cursor: pointer;
+      transition: all 400ms ease;
+							 }
+	.meme_button:hover{
+	   letter-spacing: 1px;
+      background-color: green;
+      border: 2px solid black;
+      border-radius: 40px;
+
+					}
